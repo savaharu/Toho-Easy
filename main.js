@@ -83,7 +83,7 @@ function draw() {
 
 	vcon.fillStyle = '#fff';
 	vcon.font = '40px monospace';
-	vcon.fillText('あと'+keyb.c+'回', 350, 60);
+	vcon.fillText('あと:'+keyb.c+'回', 850, 50);
 	
 	//	プレイヤー描画
 	player.draw();
