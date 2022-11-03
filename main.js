@@ -109,6 +109,10 @@ window.onload = () => {
 
 //	メインループ
 function mainLoop() {
+	if(frameCount >= 10000) {
+		window.alert('YOU WIN!');
+		window.location.replace('index.html', 'game.html');
+	}
 	let c = 0;
 	let nowTime = performance.now();
 	
