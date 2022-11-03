@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+	</head>
+	<body style="background-image: url('background.png'); background-repeat: no-repeat; background-size: cover">
+		<p style="font-size: 5em; color: white; text-align: center;">東方超簡易版</p>
+		<p style="font-size: 3em; color: white; text-align: right; margin-right: 80px">制作:鯖ハル</p>
+		<p style="font-size: 2em; color: white; text-align: center">東方の弾幕を使っただけの避けゲーム。</p>
+		<p style="font-size: 2em; color: #333333; text-align: center">Cキーを押すと三回だけ弾幕消去ができます。</p>
+		<br>
+		<input type="button" id="id_button" value="PLAY NOW!">
+		<style>
+			input {
+				width: 300px;
+				height: 100px;
+				color: white;
+				background-color: black;
+				display: inline-block;
+				padding: 0.3em 1em;
+				text-decoration: none;
+				border: solid 2px white;
+				border-radius: 3px;
+				margin-left: 600px;
+				transition: .4s;
+			}
+
+			input:hover {
+				background: white;
+				color: black;
+				border: solid 2px black;
+			}
+		</style>
+		<script>
+			document.getElementById('id_button').onclick = () => {
+				window.location.replace('game.html', 'index.html');
+			}
+		</script>
+	</body>
+</html>
