@@ -80,6 +80,10 @@ function draw() {
 		vcon.font = '40px monospace';
 		vcon.fillText('※練習モードです。', 350, 50);
 	}
+
+	vcon.fillStyle = '#fff';
+	vcon.font = '40px monospace';
+	vcon.fillText('あと'+keyb.c+'回', 350, 60);
 	
 	//	プレイヤー描画
 	player.draw();
