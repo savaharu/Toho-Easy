@@ -24,7 +24,7 @@ class Danmaku {
 		}
 		
 		if(Math.abs(this.x - player.x) < 20 && Math.abs(this.y - player.y) < 20 && select_mode != 3) {
-			
+			window.alert('GAMEOVER\n YOUR SCORE: '+frameCount);
 			window.location.replace('index.html', 'game.html');
 		}
 	}
